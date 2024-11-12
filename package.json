@@ -1,6 +1,6 @@
 {
   "name": "superclass",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Used to define a super class, adds a super attribute which holds the name of the super class.",
   "main": "index.js",
   "type": "module",
@@ -19,7 +19,5 @@
   },
   "homepage": "https://github.com/MitchellCollins/SuperClass#readme",
   "dependencies": {
-    "@mitchell-collins/validator": "^1.0.1",
-    "superclass": "file:"
-  }
+    "@mitchell-collins/validator": "^1.0.2"
 }
