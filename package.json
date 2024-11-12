@@ -1,5 +1,5 @@
 {
-  "name": "superclass",
+  "name": "@mitchell-collins/superclass",
   "version": "1.0.1",
   "description": "Used to define a super class, adds a super attribute which holds the name of the super class.",
   "main": "index.js",
