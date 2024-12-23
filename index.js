@@ -44,8 +44,8 @@ export default class SuperClass {
      * @param {String} superClassName
      */
     constructor(superClassName) {
-        validator.checkUndefined(superClassName);
-        validator.checkDataType(superClassName, "string");
+        validator.checkUndefined(superClassName, "superClassName");
+        validator.checkDataType(superClassName, "superClassName", "string");
         this.#super = superClassName;
     }
 
@@ -62,8 +62,8 @@ export default class SuperClass {
      * @param {String} newSuper 
      */
     setSuper(newSuper) {
-        validator.checkUndefined(newSuper);
-        validator.checkDataType(newSuper, "string");
+        validator.checkUndefined(newSuper, "newSuper");
+        validator.checkDataType(newSuper, "newSuper", "string");
         this.#super = newSuper;
     }
 }
