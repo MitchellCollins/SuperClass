@@ -41,7 +41,7 @@ export default class SuperClass {
      * 
      *      console.log(dave.getSuper()); //output: "Person"
      * 
-     * @param {String} superClassName
+     * @param {String} superClassName the name of the super class
      */
     constructor(superClassName) {
         validator.checkUndefined(superClassName, "superClassName");
@@ -51,7 +51,7 @@ export default class SuperClass {
 
     /**
      * Returns the name of this instances super class.
-     * @returns {String}
+     * @returns {String} the name of the super class
      */
     getSuper() {
         return this.#super;
@@ -59,7 +59,7 @@ export default class SuperClass {
 
     /**
      * Used to set a new name for this instances super class.
-     * @param {String} newSuper 
+     * @param {String} newSuper the new name of the super class
      */
     setSuper(newSuper) {
         validator.checkUndefined(newSuper, "newSuper");
